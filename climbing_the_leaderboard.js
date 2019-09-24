@@ -2,7 +2,7 @@
 //optimizations:  
 // 1) Avoided Duplicate Work: keep track of index to pick up where you left off
 // 2) Removed Unnecessary Work:  removed duplicate entries from input;
-// 3) Removed bottleneck:  Replaced Array.prototype.filter with a Set;
+// *3*) Removed bottleneck:  Replaced Array.prototype.filter with a Set;
 
 function climbingLeaderboard(scores, alice) {
   let positions = [];
