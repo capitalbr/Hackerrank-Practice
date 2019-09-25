@@ -14,7 +14,7 @@
 
 function activityNotifications(expenditure, d) {
   let notifications = 0
-  let countingSort = new Array()
+  let countingSort = [];
 
   // mid1 and mid2 could be the same if odd length but the calculation will
   // will not be effected: something doubled then divided by two remains itself.
